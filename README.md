@@ -1,29 +1,23 @@
-Sales Data Analysis and Business Insights
+📌 Sales Data Analysis and Business Insights
 
-Overview
-Performed end-to-end data analysis on a retail dataset to derive actionable business insights.
+📊 Overview
+Analyzed a retail sales dataset to uncover business insights using Python, SQL, and data visualization techniques.
 
-Tech Stack
-- Python (Pandas, NumPy)
-- SQL (SQLite)
-- Matplotlib, Seaborn
+🛠 Tools Used
+Python (Pandas, NumPy)
+Matplotlib, Seaborn
+SQLite (SQL)
+Jupyter Notebook
 
-Key Tasks
-- Data Cleaning and Preprocessing
-- Exploratory Data Analysis (EDA)
-- SQL-based querying
-- Data Visualization
+📈 Key Analysis
+Data Cleaning and Preprocessing
+Exploratory Data Analysis (EDA)
+SQL-based querying
+Data Visualization
 
-Key Insights
-- Identified seasonal sales trends
-- Found top-performing product categories
-- Analyzed regional performance differences
-- Observed revenue concentration among key products
-
-Project Structure
-- analysis.ipynb → complete workflow
-- queries.sql → SQL queries
-- visuals/ → plots and charts
-
-Results
-This project demonstrates real-world data analysis workflow from raw data to business insights.
+🔍 Key Insights
+Identified seasonal sales trends
+Found top-performing product categories
+Analyzed region-wise sales performance
+Discovered customer purchasing patterns
+Evaluated profit vs revenue behavior
