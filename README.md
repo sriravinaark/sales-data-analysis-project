@@ -76,7 +76,7 @@ sales-analysis-project/
 │
 ├── visuals/
 │   └── EDA                  # EDA Visualizations
-│   └── Querying             # Querying Visulaizations
+│   └── Querying             # Querying Visualizations
 │
 ├── README.md
 └── requirements.txt
