@@ -1,8 +1,10 @@
-📊 Retail Sales Analytics Dashboard
+# 📊 Retail Sales Analytics Dashboard
 
 An end-to-end Retail Sales Analytics project built using **Python, SQL, Pandas, Plotly, and Streamlit**. The project demonstrates the complete data analytics workflow—from data cleaning and exploratory analysis to SQL querying and deployment of an interactive business intelligence dashboard.
 
-📌 Project Overview
+---
+
+## 📌 Project Overview
 
 This project analyzes the **Sample Superstore Dataset** to uncover business insights related to sales, profitability, customer behavior, and regional performance.
 
@@ -14,15 +16,17 @@ The project follows a complete analytics pipeline:
 - Interactive Dashboard Development
 - Business Insight Generation
 
-🚀 Dashboard Features
+---
 
-📈 Interactive Filters
+## 🚀 Dashboard Features
+
+### 📈 Interactive Filters
 - Year
 - Region
 - Product Category
 - Customer Segment
 
-📊 KPI Cards
+### 📊 KPI Cards
 - Total Revenue
 - Total Profit
 - Total Orders
@@ -30,7 +34,7 @@ The project follows a complete analytics pipeline:
 - Profit Margin
 - Year-over-Year Growth
 
-📉 Visualizations
+### 📉 Visualizations
 
 - Monthly Sales Trend
 - Sales by Category
@@ -40,7 +44,7 @@ The project follows a complete analytics pipeline:
 - Regional Profit Analysis
 - Profit Distribution by Discount
 
-💡 Dynamic Business Insights
+### 💡 Dynamic Business Insights
 
 The dashboard automatically identifies:
 
@@ -51,14 +55,15 @@ The dashboard automatically identifies:
 - Highest Value Customer
 - Discount Impact on Profitability
 
-📥 Export Feature
+### 📥 Export Feature
 
 Users can download the filtered dataset directly as a CSV file.
 
+---
 
-📂 Project Structure
+# 📂 Project Structure
 
-
+```
 sales-analysis-project/
 │
 ├── app/
@@ -70,26 +75,28 @@ sales-analysis-project/
 ├── notebooks/
 │   └── analysis.ipynb         # EDA Notebook
 │
+├── sql/
+│   └── analysis.sql           # SQL Queries
 │
 ├── outputs/
-│   └── Dashboard            # Dashboard Sample Images
+│   └── screenshots/           # Dashboard Images
 │
 ├── visuals/
-│   └── EDA                  # EDA Visualizations
-│   └── Querying             # Querying Visualizations
+│   └── plots                  # EDA Visualizations
 │
 ├── README.md
 └── requirements.txt
+```
 
+---
 
+# 🛠️ Technologies Used
 
-🛠️ Technologies Used
-
-Programming
+### Programming
 
 - Python
 
-Libraries
+### Libraries
 
 - Pandas
 - NumPy
@@ -98,21 +105,23 @@ Libraries
 - Matplotlib
 - Seaborn
 
-Database
+### Database
 
 - SQLite
 - SQL
 
-Development Tools
+### Development Tools
 
 - Jupyter Notebook
 - VS Code
 - Git
 - GitHub
 
-📈 Analytical Workflow
+---
 
-1️⃣ Data Cleaning
+# 📈 Analytical Workflow
+
+## 1️⃣ Data Cleaning
 
 - Removed duplicate records
 - Checked missing values
@@ -122,8 +131,9 @@ Development Tools
   - Month
   - Profit Margin
 
+---
 
-2️⃣ Exploratory Data Analysis
+## 2️⃣ Exploratory Data Analysis
 
 Performed exploratory analysis to understand:
 
@@ -134,8 +144,9 @@ Performed exploratory analysis to understand:
 - Product performance
 - Discount impact
 
+---
 
-3️⃣ SQL Analysis
+## 3️⃣ SQL Analysis
 
 Used SQL to answer business questions including:
 
@@ -146,7 +157,9 @@ Used SQL to answer business questions including:
 - Profitability Analysis
 - Discount Analysis
 
-4️⃣ Dashboard Development
+---
+
+## 4️⃣ Dashboard Development
 
 Developed an interactive Streamlit dashboard with:
 
@@ -157,7 +170,9 @@ Developed an interactive Streamlit dashboard with:
 - Downloadable Reports
 - Business Insights
 
-📊 Key Business Insights
+---
+
+# 📊 Key Business Insights
 
 The dashboard dynamically generates insights such as:
 
@@ -167,49 +182,58 @@ The dashboard dynamically generates insights such as:
 - Consumer customers place the highest number of orders.
 - A small number of customers contribute disproportionately to total revenue.
 
-📷 Dashboard Preview
+---
 
-Executive Dashboard
+# 📷 Dashboard Preview
+
+### Executive Dashboard
 
 - KPI Cards
 - Monthly Sales Trend
 - Interactive Filters
 
-Sales Analysis
+### Sales Analysis
 
 - Category Performance
 - Regional Sales
 - Regional Profit
 
-Customer Analysis
+### Customer Analysis
 
 - Top Customers
 - Top Products
 - Discount vs Profit
 
+---
 
-▶️ Running the Project
+# ▶️ Running the Project
 
-Clone Repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/retail-sales-dashboard.git
+git clone https://github.com/sriravinaark/sales-data-analysis-project.git
+cd sales-data-analysis-project
 ```
 
+---
 
-Install Requirements
+## Install Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Launch Dashboard
+---
+
+## Launch Dashboard
 
 ```bash
 streamlit run app/app.py
 ```
 
-📌 Future Improvements
+---
+
+# 📌 Future Improvements
 
 - Forecasting using Time Series Models
 - Customer Segmentation (RFM Analysis)
@@ -220,7 +244,11 @@ streamlit run app/app.py
 - Docker Deployment
 - Cloud Deployment (Streamlit Community Cloud)
 
-⭐ Project Highlights
+---
+
+
+
+# ⭐ Project Highlights
 
 ✔ End-to-End Data Analytics Project
 
