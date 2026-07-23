@@ -75,15 +75,14 @@ sales-analysis-project/
 ├── notebooks/
 │   └── analysis.ipynb         # EDA Notebook
 │
-├── sql/
-│   └── analysis.sql           # SQL Queries
-│
 ├── outputs/
-│   └── screenshots/           # Dashboard Images
+│   └── Dashboard/           # Dashboard Images
 │
 ├── visuals/
-│   └── plots                  # EDA Visualizations
+│   └── EDA/                 # EDA Visualizations
+│   └── Querying/            # Querying Visualizations
 │
+├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
